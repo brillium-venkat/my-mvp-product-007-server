@@ -1,0 +1,15 @@
+# default_bit = 4096
+distinguished_name = req_distinguished_name
+prompt = no
+
+[req_distinguished_name]
+countryName             = IN
+stateOrProvinceName     = Telangana
+localityName            = Hyderabad
+organizationName        = My Company
+organizationalUnitName	 = Product Engineering
+emailAddress		 = brahma
+commonName              = My MVP Product 007 Server
+
+#[ req_attributes ]
+# challengePassword=schallenge@myproduct
